@@ -1,7 +1,7 @@
 <!--
   PROFILE README — pramudithaSJ
-  TODO: Replace the two remaining <PLACEHOLDER> values in the "Connect with me" section:
-    1. LinkedIn username   2. Portfolio URL
+  TODO: Replace the remaining <PLACEHOLDER> value in the "Connect with me" section:
+    1. Portfolio URL
 -->
 
 <div align="center">
@@ -28,15 +28,17 @@
 ## 🤝 Connect with me
 
 <p>
-  <a href="https://linkedin.com/in/PLACEHOLDER" target="_blank">
+  <a href="https://www.linkedin.com/in/pramuditha-jayawardhana/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
   <a href="mailto:pramuditha.sj@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <!-- TODO: add your portfolio URL, then uncomment the badge below
   <a href="https://PLACEHOLDER" target="_blank">
     <img src="https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
   </a>
+  -->
 </p>
 
 <br/>
