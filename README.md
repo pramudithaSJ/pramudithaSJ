@@ -1,89 +1,71 @@
-<!--
-  PROFILE README — pramudithaSJ
-  TODO: Replace the remaining <PLACEHOLDER> value in the "Connect with me" section:
-    1. Portfolio URL
--->
+# Pramuditha Jayawardhana
 
-<div align="center">
+MSc student in Information Systems at **Uppsala University**, specialising in AI and machine learning.
+Previously BSc (Hons) in Software Engineering at SLIIT, Sri Lanka.
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=26&duration=3000&pause=1000&center=true&vCenter=true&width=460&lines=Software+Engineer;Data+Analytics+Enthusiast;Lifelong+Learner" alt="Typing SVG" />
+I build production systems for medical device and healthcare companies, and I publish on computer vision for assistive technology.
 
-<a href="https://github.com/pramudithaSJ">
-  <img src="https://komarev.com/ghpvc/?username=pramudithasj&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
-</a>
+Open to internships and part-time work in Sweden — **software, data and AI engineering**.
 
-</div>
+📍 Uppsala, Sweden · ✉️ pramuditha.sj@gmail.com · [LinkedIn](https://www.linkedin.com/in/pramuditha-jayawardhana/)
 
-<br/>
+---
 
-## 👋 About Me
+## Published research
 
-- 👨🏻‍💻 &nbsp;Software Engineer sharing my journey and learnings in tech
-- 🎓 &nbsp;Computer Science — [SLIIT](https://www.sliit.lk/)
-- 🌱 &nbsp;Currently deepening my skills in **Data Analytics**
-- 💬 &nbsp;Ask me about **React**, **Node.js**, and web development
+Two IEEE papers on a smart glass that helps visually impaired students take part in STEM classes. I trained the detection models and built the edge inference pipeline.
 
-<br/>
+- **Enhancing Learning Experiences for Visually Impaired Students with AI and Machine Learning on Smart Device** — HORA 2024 · [10.1109/HORA61326.2024.10550610](https://doi.org/10.1109/HORA61326.2024.10550610)
+- **Enhancing STEM Education Accessibility for Blind and Low Vision Students** — ICCCNT 2024 · [10.1109/ICCCNT61001.2024.10725667](https://doi.org/10.1109/ICCCNT61001.2024.10725667)
 
-## 🤝 Connect with me
+Code: [VE-Server](https://github.com/pramudithaSJ/VE-Server) (Python, YOLOv8, ncnn) · [VE-Mobile-App](https://github.com/pramudithaSJ/VE-Mobile-App) (Flutter)
 
-<p>
-  <a href="https://www.linkedin.com/in/pramuditha-jayawardhana/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
-  <a href="mailto:pramuditha.sj@gmail.com">
-    <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
-  </a>
-  <!-- TODO: add your portfolio URL, then uncomment the badge below
-  <a href="https://PLACEHOLDER" target="_blank">
-    <img src="https://img.shields.io/badge/Portfolio-222222?style=for-the-badge&logo=aboutdotme&logoColor=white" alt="Portfolio" />
-  </a>
-  -->
-</p>
+---
 
-<br/>
+## What I work on
 
-## 🧰 Tech Stack
+Most of my recent work sits in private client repositories, so here is what it actually is.
 
-**Languages**
+### ProtoMed — order management for patient-specific medical implants
+`TypeScript` `Node.js` `Express` `MongoDB` `Next.js` `Azure`
 
-<p>
-  <img alt="JavaScript" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-  <img alt="TypeScript" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" />
-  <img alt="Python" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-plain.svg" />
-  <img alt="C++" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-line.svg" />
-  <img alt="HTML" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg" />
-  <img alt="CSS" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg" />
-</p>
+Around 45,000 lines across a Next.js front end and an Express API built as 27 domain modules — CT imaging, implant design, quality control, printing, inventory, quotations, payments. JWT auth with role-based access control, patient-privacy middleware, and a full audit trail. CT scans and design files in Azure Blob Storage. Order documents generated server-side as PDFs with barcodes and QR codes. Database backups run on a scheduled GitHub Actions job with a command-line restore path.
 
-**Frameworks & Libraries**
+Runs in production for teams in Sri Lanka, Singapore and Malaysia, with each country's patient data kept isolated.
 
-<p>
-  <img alt="React" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
-  <img alt="NodeJS" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
-</p>
+### InkLessQ — AI-assisted quality management for ISO 9001 and ISO 13485
+`Python` `FastAPI` `SQLAlchemy` `Celery` `Redis` `PostgreSQL` `Claude API` `Next.js`
 
-**Tools & Platforms**
+A multi-tenant compliance platform. The interesting part is a dynamic forms engine: form templates are stored as JSONB and act as the schema for the records filled against them, so new document types need no migration. Signed records freeze to PDF as audit evidence. Document analysis runs asynchronously in a separate internal FastAPI service on Celery and Redis.
 
-<p>
-  <img alt="Git" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
-  <img alt="GitHub" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" />
-  <img alt="Linux" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" />
-  <img alt="Bash" width="30" height="30" style="margin:6px 10px 6px 0;" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" />
-</p>
+Built with two medical device manufacturers as design partners.
 
-<br/>
+### Voizon — AI agent for WhatsApp, voice notes and live calls
+`Node.js` `Claude API` `MongoDB Atlas Vector Search` `Voyage AI` `Deepgram` `Azure Speech` `WebRTC` `Redis`
 
-## 📊 GitHub Stats
+Retrieval-augmented generation over a client knowledge base: Voyage AI embeddings stored in MongoDB Atlas, searched by vector similarity, then passed to Claude. One reasoning layer serves all three channels, so text, voice notes and live calls share the same knowledge base. Speech-to-text through Deepgram, text-to-speech through Azure Speech, streamed over WebRTC for live calls.
 
-<div align="center">
+### GalleExpress — revenue forecasting for a bus operator
+`Python` `FastAPI` `scikit-learn` `pandas` `Next.js` `MongoDB`
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=pramudithasj&show_icons=true&theme=default&hide_border=true&count_private=true" alt="GitHub stats" />
-&nbsp;
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs?username=pramudithasj&layout=compact&theme=default&hide_border=true&locale=en" alt="Top languages" />
+31 engineered features from raw daily takings — lags at 1, 7 and 14 days, rolling means over 7, 14 and 30 days, sine and cosine encoding of month and weekday, per-vehicle encoding, maintenance flags. Random Forest regressors for revenue, expenses and net income, at company and per-vehicle level, evaluated on held-out data and served through FastAPI to a management dashboard.
 
-<br/>
+---
 
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com?user=pramudithasj&theme=default&hide_border=true" alt="GitHub streak" />
+## Tools
 
-</div>
+**ML and AI** — Python · PyTorch · TensorFlow/Keras · YOLOv8 · scikit-learn · OpenCV · pandas · NumPy · ncnn · RAG and vector search · Claude API
+
+**Data and backend** — FastAPI · Flask · Node.js · Express · TypeScript · PostgreSQL · MongoDB · Redis · Celery · BullMQ · WebSocket · WebRTC
+
+**Cloud** — Azure (Blob Storage, App Service, Speech) · Supabase · Firebase · Vercel · GitHub Actions
+
+**Frontend** — Next.js · React · Tailwind CSS · shadcn/ui · Flutter
+
+---
+
+## Also here
+
+Teaching: I lectured Data Structures and Algorithms, Probability and Statistics, Database Systems and mobile and web development at SLIIT Kandy for a year and a half.
+
+Languages: English (professional), Sinhala (native), Swedish (learning).
